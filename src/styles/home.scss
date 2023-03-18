@@ -1,0 +1,80 @@
+.home-page {
+  .home-info {
+    padding-top: 47px;
+    padding-bottom: 60px;
+    .info-content {
+      margin-left: 30px;
+      font-size: 18px;
+      line-height: 27px;
+      .info-name {
+        font-size: 40px;
+        line-height: 60px;
+      }
+    }
+  }
+  .home-showcase{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #0C0C0C;
+    .img-text {
+      font-size: 40px;
+      color: #FFFFFF;
+    }
+    .img-smile {
+      margin-left: 15px;
+    }
+    .img-ellipe {
+      margin: 0 30px;
+    }
+  }
+  .home-info2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    .info-lage {
+      padding-top: 20px;
+      font-size: 32px;
+    }
+  }
+  .home-info3 {
+    height: 793px;
+    background: $primary_color;
+    .text-small {
+      font-size: 12px;
+    }
+    .text-normal {
+      font-size: 62px;
+    }
+    .text-large {
+      font-size: 120px;
+    }
+    .brands {
+      display: flex;
+      width: 100%;
+      margin-left: 30px;
+      height: 70px;
+      .brands-line {
+        margin-left: auto;
+        width: 169px;
+        border-bottom: 1px solid #000000;
+      }
+    }
+    .child1{
+      padding-top: 128px;
+    }
+    .child2{
+      padding-left: 15px !important;
+      padding-top: 120px;
+    }
+    .child3{
+      display: flex;
+      justify-content: end;
+      padding-top: 245px;
+      .small-img {
+        padding-top: 215px;
+        display: flex;
+        justify-content: end;
+      }
+    }
+  }
+}
