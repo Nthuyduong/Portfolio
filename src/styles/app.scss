@@ -1,14 +1,45 @@
 // variable
 $primary_color: #E1DDD6;
 $second_color: #F5EAE0;
-
+$heading_1: 62px;
+$heading_3:  40px;
+$heading_4: 32px;
+$heading_5: 24px;
+$medium_text: 18px;
+$small_text: 14px;
 
 @import "layout";
 @import "home";
+@import "about";
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.page-body-wrapper {
+  padding-top: 87px;
+}
+
+.heading_1 {
+  font-size: $heading_1;
+}
+.heading_3 {
+  font-size: $heading_3;
+}
+.heading_4 {
+  font-size: $heading_4;
+}
+.heading_5 {
+  font-size: $heading_5;
+}
+
+.small_text {
+  font-size: $small_text;
+}
+.medium_text {
+  font-size: $medium_text;
 }
 
 .container-fluid {
@@ -38,6 +69,10 @@ body {
   position: relative;
   text-align: center;
   width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
   .img-text {
     position: absolute;
     left: 0;
@@ -65,4 +100,37 @@ body {
 [class*="col-"] {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+.back-to-top {
+  position: fixed;
+  right: -10px;
+  bottom: 50%;
+
+  cursor: pointer;
+
+  color: #959595;
+
+  font-size: 58px;
+  transform: rotate(90deg);
+  font-size: $medium_text;
+  color: #333333;
+}
+
+.get-in-touch {
+  position: fixed;
+  left: -10px;
+  bottom: 50%;
+
+  cursor: pointer;
+
+  color: #959595;
+
+  font-size: 58px;
+  transform: rotate(90deg);
+  font-size: $medium_text;
+  color: #333333;
+}
+.boder-none {
+  border: none !important;
 }

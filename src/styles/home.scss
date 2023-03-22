@@ -4,10 +4,10 @@
     padding-bottom: 60px;
     .info-content {
       margin-left: 30px;
-      font-size: 18px;
+      font-size: $medium_text;
       line-height: 27px;
       .info-name {
-        font-size: 40px;
+        font-size: $heading_3;
         line-height: 60px;
       }
     }
@@ -17,7 +17,7 @@
     justify-content: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #0C0C0C;
     .img-text {
-      font-size: 40px;
+      font-size: $heading_3;
       color: #FFFFFF;
     }
     .img-smile {
@@ -30,10 +30,10 @@
   .home-info2 {
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 18px;
+    font-size: $medium_text;
     .info-lage {
       padding-top: 20px;
-      font-size: 32px;
+      font-size: $heading_4;
     }
   }
   .home-info3 {
@@ -43,7 +43,7 @@
       font-size: 12px;
     }
     .text-normal {
-      font-size: 62px;
+      font-size: $heading_1;
     }
     .text-large {
       font-size: 120px;
@@ -74,6 +74,47 @@
         padding-top: 215px;
         display: flex;
         justify-content: end;
+      }
+    }
+  }
+  .my-design {
+    padding: 40px 75px;
+    color: #333333;
+    .des-main {
+      display: flex;
+      align-items: center;
+    }
+    .des-title {
+      font-size: $heading_3;
+    }
+    .des-content {
+      padding-top: 30px;
+      font-size: $small_text;
+    }
+    .des-img-container {
+      .img-des {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      padding-top: 80px;
+      .content-title {
+        padding-top: 22px;
+        width: 100%;
+        display: flex;
+        font-size: $medium_text;
+        .des-no {
+          font-size: $heading_5;
+        }
+        .title-status {
+          margin-left: auto;
+          color:  #999999;
+        }
+        .content-text {
+          padding-top: 10px;
+          font-size: $small_text;
+        }
       }
     }
   }

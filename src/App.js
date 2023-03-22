@@ -3,10 +3,14 @@ import {
   Route,
   HashRouter as Router,
   Switch,
+  DefaultRoute,
 } from "react-router-dom";
-import Home from "./pages/home";
+
 import { ROUTER } from "./utils/constants";
 import Layout from "./components/layout";
+import Home from "./pages/home";
+import About from "./pages/about";
+
 
 const App = () => {
 
@@ -14,7 +18,9 @@ const App = () => {
     <Router>
       <Switch>
         <Layout>
-          <Route path={ROUTER.HOME} component={Home}/>
+          <Route exact path={ROUTER.HOME} component={Home}/>
+          <Route path={ROUTER.ABOUT} component={About}/>
+          <Route path={ROUTER.CONTACT} component={Home}/>
         </Layout>
       </Switch>  
     </Router>
