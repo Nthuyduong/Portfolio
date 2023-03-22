@@ -2,14 +2,19 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: white;
+  background: #fff;
+  height: 87px;
+  border-bottom: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header{
   height: 87px;
   border-bottom: 1px solid #E4E4E4;
   padding: 0 !important;
   position: fixed;
-  .header-container{
+  .header-content{
     width: 100%;
     padding: 10px;
     background: white;

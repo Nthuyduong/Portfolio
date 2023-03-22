@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <Navbar className="header" expand="lg">
-        <div className="header-container">
+        <div className="header-content">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
