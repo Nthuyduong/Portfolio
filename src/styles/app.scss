@@ -11,12 +11,24 @@ $small_text: 14px;
 @import "layout";
 @import "home";
 @import "about";
+@import "contact";
 
 html,
 body {
   min-height: 100vh;
   margin: 0;
+  overflow: scroll;
 }
+
+//scroll bar
+::-webkit-scrollbar {
+  width: 6px;
+  height:0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
 
 .page-body-wrapper {
   padding-top: 87px;
@@ -131,6 +143,13 @@ body {
   font-size: $medium_text;
   color: #333333;
 }
+.get-in-touch:hover {
+  color: #333333;
+  text-decoration: none;
+}
 .boder-none {
   border: none !important;
+}
+.content-center {
+  justify-content: center;
 }

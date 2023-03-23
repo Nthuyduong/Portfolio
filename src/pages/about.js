@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about-page">
       <div className="img-container">
-        <img src="./images/about/Showcase.png"></img>
+        <img src="./images/about/Showcase.png" loading="lazy" alt="#"></img>
       </div>
       <div className="page-element">
         <div className="container-fluid about1">
@@ -33,7 +33,7 @@ const About = () => {
           <div className="row">
             <div className="col-3">
               <div className="img-container">
-                <img src="./images/about/xinh.png" alt="#"></img>
+                <img src="./images/about/xinh.png" alt="#" loading="lazy"></img>
               </div>
             </div>
             <div className="col-1">
@@ -51,11 +51,11 @@ const About = () => {
               </div>
               <div className="about-info">
                 Birthday: 19/08/1998
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Nationality: Local Vietnamese
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Maritality: Single
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Gender: Female
               </div>
               <div className="about-title">
@@ -63,11 +63,11 @@ const About = () => {
               </div>
               <div className="about-info">
                 Reading
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Drawing
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Travelling
-                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#"></img>
+                <img className="about-dot" src="./images/about/Ellipse27.png" alt="#" loading="lazy"></img>
                 Swimming
               </div>
             </div>
@@ -148,7 +148,7 @@ const About = () => {
           <div className="row">
             <div className="col-6 core-img">
               <div className="img-container">
-                <img src="./images/about/Crystal_Paperweights_864x6401.png" alt="#"></img>
+                <img src="./images/about/Crystal_Paperweights_864x6401.png" alt="#" loading="lazy"></img>
               </div>
             </div>
             <div className="col-6 core-content">

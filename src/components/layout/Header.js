@@ -20,11 +20,18 @@ const Header = () => {
             <Nav><Link className="nav-link" to="/">HOME</Link></Nav>
             <Nav><Link className="nav-link" to="/about">ABOUT</Link></Nav>
             <NavDropdown title="DESIGNS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">DESIGNS</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item>
+                <Link className="nav-link" to="/aguri">AGURI</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="nav-link" to="/">Alio</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="nav-link" to="/">Cake-blog</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link className="nav-link" to="/">Fashion-brand</Link>
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav><Link className="nav-link" to="/contact">CONTACT</Link></Nav>
           </Nav>

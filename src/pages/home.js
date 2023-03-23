@@ -28,7 +28,7 @@ const Home = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-8 d-flex">
-                <img src="./images/home/logo-icon.svg" alt="logo" />
+                <img src="./images/home/logo-icon.svg" alt="logo" loading="lazy"/>
                 <div className="info-content medium_text">
                   Hello, My name is
                   <div className="info-name heading_3">
@@ -45,15 +45,15 @@ const Home = () => {
         <div className="page-element">
           <div className="home-showcase">
             <div className="img-container">
-              <img src="./images/home/Showcase.png" alt="showcase"/>
+              <img src="./images/home/Showcase.png" alt="showcase" loading="lazy"/>
               <div className="img-text heading_3">
                 Hello!
-                <img className="img-smile" src="./images/icons/smile.svg" alt="smile"/>
-                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile"/>
+                <img className="img-smile" src="./images/icons/smile.svg" alt="smile" loading="lazy"/>
+                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile" loading="lazy"/>
                 Welcome to my website.
-                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile"/>
+                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile" loading="lazy"/>
                 I'm delighted to share my portfolio with you!
-                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile"/>
+                <img className="img-ellipe" src="./images/icons/ellipse.svg" alt="smile" loading="lazy"/>
               </div>
             </div>
           </div>
@@ -89,20 +89,20 @@ const Home = () => {
                   {currentText}
                 </div>
                 <div className="d-flex">
-                  <img src="./images/home/Rectangle35.png" alt="Rectangle35"/>
+                  <img src="./images/home/Rectangle35.png" alt="Rectangle35" loading="lazy"/>
                   <div className="brands heading_1">
                     Brands <span className="brands-line"></span>
                   </div>
                 </div>
               </div>
               <div className="col-4 child2">
-                <img src="./images/home/Rectangle36.png" alt="Rectangle35"/>
+                <img src="./images/home/Rectangle36.png" alt="Rectangle35" loading="lazy"/>
               </div>
               <div className="col-2 child3">
                 <div>
-                  <img src="./images/home/Rectangle34.png" alt="Rectangle35"/>
+                  <img src="./images/home/Rectangle34.png" alt="Rectangle35" loading="lazy"/>
                   <div className="small-img">
-                    <img src="./images/home/Rectangle440.png" alt="Rectangle35"/>
+                    <img src="./images/home/Rectangle440.png" alt="Rectangle35" loading="lazy"/>
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const Home = () => {
               <div className="col-6">
                 <div className="des-img-container">
                   <div className="img-des">
-                    <img src="./images/home/Rectangle443.png"></img>
+                    <img src="./images/home/Rectangle443.png" loading="lazy"></img>
                   </div>
                   <div className="des-img-content">
                     <div className="content-title">
@@ -152,7 +152,7 @@ const Home = () => {
               <div className="col-6">
                 <div className="des-img-container">
                   <div className="img-des">
-                    <img src="./images/home/Rectangle32.png"></img>
+                    <img src="./images/home/Rectangle32.png" loading="lazy"></img>
                   </div>
                   <div className="des-img-content">
                     <div className="content-title">
@@ -176,7 +176,7 @@ const Home = () => {
               <div className="col-5">
                 <div className="des-img-container">
                   <div className="img-des">
-                    <img src="./images/home/Rectangle444.png"></img>
+                    <img src="./images/home/Rectangle444.png" loading="lazy"></img>
                   </div>
                   <div className="des-img-content">
                     <div className="content-title">
@@ -202,7 +202,7 @@ const Home = () => {
               <div className="col-6">
                 <div className="des-img-container">
                   <div className="img-des">
-                    <img src="./images/home/Rectangle445.png"></img>
+                    <img src="./images/home/Rectangle445.png" loading="lazy"></img>
                   </div>
                   <div className="des-img-content">
                     <div className="content-title">

@@ -28,6 +28,11 @@
         font-weight: 400;
         font-size: 16px;
       }
+      .dropdown-item {
+        .nav-link {
+          padding: 0 10px;
+        }
+      }
       @media (max-width: 991px) {
         .nav-link {
           padding: 10px 0;

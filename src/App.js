@@ -10,6 +10,7 @@ import { ROUTER } from "./utils/constants";
 import Layout from "./components/layout";
 import Home from "./pages/home";
 import About from "./pages/about";
+import Contact from "./pages/contact";
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Layout>
           <Route exact path={ROUTER.HOME} component={Home}/>
           <Route path={ROUTER.ABOUT} component={About}/>
-          <Route path={ROUTER.CONTACT} component={Home}/>
+          <Route path={ROUTER.CONTACT} component={Contact}/>
         </Layout>
       </Switch>  
     </Router>
